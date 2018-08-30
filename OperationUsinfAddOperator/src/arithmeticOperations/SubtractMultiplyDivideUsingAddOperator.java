@@ -50,7 +50,9 @@ public class SubtractMultiplyDivideUsingAddOperator {
 		int x = 0;
 		while(product + absb <= absa) { /* don't go past a */
 			product += absb;
+			//System.out.println(product);
 			x++;
+			//System.out.println(x);
 		}
 		
 		if((a < 0 && b < 0) || (a > 0 && b > 0)) {
@@ -63,6 +65,6 @@ public class SubtractMultiplyDivideUsingAddOperator {
 	public static void main(String[] args) {
 		System.out.println("5 - 2 = " + minus(5, 2));
 		System.out.println("5 x 2 = " + multiply(5, 2));
-		System.out.println("10 / 2 = " + divide(10, 2));
+		System.out.println("10 / 2 = " + divide(10, 5));
 	}
 }
